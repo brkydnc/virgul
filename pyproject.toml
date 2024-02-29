@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "virgul"
+description = "Utilities for floating point density calculation."
+version = "0.0.1"
+authors = [ { name = "Berkay Dinç", email = "berkayydinc@gmail.com" } ]
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["floating-point"]
+dependencies = ["cffi"]
